@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["airbnb-base",
+  "eslint:recommended",
+  "plugin:import/errors",
+  "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["import"],
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "import/extensions": ["error", "always", {
+      "js": "never"
+    }]
+  }
+}
+
