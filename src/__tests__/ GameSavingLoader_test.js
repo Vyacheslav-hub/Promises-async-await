@@ -1,6 +1,6 @@
-import GameSavingLoader from '../GameSavingLoader.js';
-import read from '../reader.js';
-import json from '../parser.js';
+import GameSavingLoader from '../GameSavingLoader';
+import read from '../reader';
+import json from '../parser';
 
 jest.mock('../reader.js'); // Мокаем модуль reader.js
 jest.mock('../parser'); // Мокаем модуль parser.js
